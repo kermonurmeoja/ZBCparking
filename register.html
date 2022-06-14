@@ -10,35 +10,114 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-<section class="vh-100" style="background-color: #cfe2ff;">
+<body style="background-color: #cfe2ff;">
+<section class="vh-100">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-12 col-md-8 col-lg-6 col-xl-5">
         <div class="card shadow-2-strong" style="border-radius: 1rem;">
-          <div class="card-body p-5 text-center">
-
+          <div class="card-body p-5">
+            <a href="index.html" style="float:right;"><svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="31px" viewBox="0 0 60 31" style="enable-background: new 0 0 60 31;" xml:space="preserve">
+                        <polygon class="st0" points="18.7,0.7 0.4,0.7 0.4,8.5 7.1,8.5 0.4,15.5 0.4,30.4 18.7,30.4 18.7,22.6 5,22.6 18.7,8.1 "></polygon>
+              <path class="st0" d="M36.1,15.5L36.1,15.5L36.1,15.5c2.5-1.4,3.3-4.1,3.3-6.5c0-4.2-3.2-8.4-9.4-8.4h-8.8v7.8h5.5h0.9H29
+                            c1.4,0,2.1,1.1,2.1,2.2s-0.7,2.2-2.1,2.2h-1.4h-0.9h-5.5v2.8v2.8h5.5h0.9H29c1.4,0,2.1,1.1,2.1,2.2s-0.7,2.2-2.1,2.2h-1.4h-0.9h-5.5
+                            v7.8H30c6.2,0,9.4-4.2,9.4-8.4C39.4,19.6,38.5,16.9,36.1,15.5z"></path>
+              <path id="Upper_c" class="st0" d="M46.4,8.1c2.9,0,5.1,1.9,5.8,4.4h0.5L59.7,7C57,2.8,52.3,0.1,46.4,0.1c-1.6,0-3.2,0.2-4.7,0.7v9.3
+                            C42.9,8.8,44.5,8.1,46.4,8.1z"></path>
+              <path class="st0" d="M52.8,18.4h-0.5c-0.7,2.6-2.9,4.4-5.9,4.4c-2,0-3.6-0.8-4.7-2v9.3c1.5,0.4,3.1,0.7,4.7,0.7
+                            c5.7,0,10.7-2.8,13.4-7.2L52.8,18.4z"></path>
+            </svg></a>
             <h3 class="mb-5">Sign up</h3>
 
-            <div class="form-outline mb-4">
-              <input type="email" id="typeEmailX-2" placeholder="email address" class="form-control form-control-lg">
-              <label class="form-label" for="typeEmailX-2">Email address</label>
-            </div>
-            <div class="form-outline mb-4">
-              <input type="password" placeholder="********" id="typePasswordX-2" class="form-control form-control-lg" />
-              <label class="form-label" for="typePasswordX-2">Password</label>
-            </div>
-            <div class="form-outline mb-4">
-              <input type="password" placeholder="********" id="typePasswordX-2" class="form-control form-control-lg" />
-              <label class="form-label" for="typePasswordX-2">Repeat password</label>
+            <div class="card">
+              <div class="card-header">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group mb-4">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="repeatpassword">Repeat password</label>
+                      <input type="password" class="form-control" id="repeatpassword" placeholder="Password" required>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="firstname">First name</label>
+                      <input type="text" class="form-control" id="firstname" placeholder="First name" required>
+                    </div>
+                    <div class="col">
+                      <label for="lastname">Last name</label>
+                      <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+                    </div>
+                  </div>
+
+                  <br>
+
+                  <div class="form-row">
+                    <div class="form-group mb-4">
+                      <label for="licenseplate">License plate number</label>
+                      <input type="email" class="form-control" id="licenseplate" placeholder="AA 12 345" required>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
             </div>
 
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+            <br>
+
+            <div class="card">
+              <div class="card-header">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group mb-4">
+                      <label for="cardnumber">Card number</label>
+                      <input type="email" class="form-control" id="cardnumber" placeholder="1234 5678 9012 3456" required>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="firstname">First name</label>
+                      <input type="text" class="form-control" id="firstname" placeholder="First name" required>
+                    </div>
+                    <div class="col">
+                      <label for="lastname">Last name</label>
+                      <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+                    </div>
+                  </div>
+
+                  <br>
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="cc-expiration">Expiration date</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="mo/yr" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-cvv">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="123" required>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+            </form>
+
           </div>
         </div>
       </div>
     </div>
   </div>
+
 </section>
 </body>
 </html>
